@@ -1,4 +1,9 @@
-let score = 33;
-console.log("hello world");
-console.log("second hello world score");
-console.log("second hello world score");
+const arrowfunc =(num1)=>{
+    let a = num1
+    let b = 2
+
+    return a+b
+};
+
+
+console.log(arrowfunc(2));
